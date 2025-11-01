@@ -16,7 +16,7 @@ use Config\OSPOS;
                 <a target="_blank" href="https://github.com/opensourcepos/opensourcepos/commit/<?= esc(config(OSPOS::class)->commit_sha1) ?>">
                     <?= esc(substr(config(OSPOS::class)->commit_sha1, 0, 6)); ?>
                 </a>
-            </strong>.
+            </strong> | Installed by RoshanTech, eSite.pk.
         </div>
     </div>
 </body>
